@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BG counter</string>
+    <string name="logo">Давай посчитаем</string>
+    <string name="contin">Продолжить игру</string>
+    <string name="games_list">Список игр</string>
+    <string name="users_list">Список игроков</string>
+    <string name="users_stat">Статистика</string>
+</resources>

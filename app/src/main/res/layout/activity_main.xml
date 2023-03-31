@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Давай посчитаем!"
+        android:textAlignment="center"
+        android:textColor="@color/chocolate"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <Button
+        android:id="@+id/Contin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/medium_sea_green"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/contin"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/Games_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Contin"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/games_list"
+        android:textSize="12sp"
+        android:layout_marginHorizontal="100dp"
+        android:backgroundTint="@color/orange"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <Button
+        android:onClick="User_List"
+        android:id="@+id/Users_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Games_list"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/users_list"
+        android:textSize="12sp"
+        android:layout_marginHorizontal="100dp"
+        android:backgroundTint="@color/royal_blue"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <Button
+        android:id="@+id/Stat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Users_list"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/users_stat"
+        android:layout_marginHorizontal="100dp"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_violet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="545dp" />
+
+
+
+
+
+</RelativeLayout>
